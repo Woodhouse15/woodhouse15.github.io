@@ -1,6 +1,7 @@
 {
   "name": "my-app",
-  "homepage": "https://github.com/Woodhouse15/woodhouse15.github.io",
+  "homepage": "https://woodhouse15.github.io/woodhouse15.github.io",
+  "private":true,
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
