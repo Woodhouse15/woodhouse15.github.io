@@ -13,9 +13,12 @@
     "next": "15.5.3"
   },
   "devDependencies": {
-    "typescript": "^4",
+    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19"
+  },
+  "overrides": {
+    "typescript": "^5"
   }
 }
