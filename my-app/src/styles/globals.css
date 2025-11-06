@@ -10,10 +10,18 @@
   }
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 html,
 body {
   max-width: auto;
   overflow-x: hidden;
+  text-align: center;
 }
 
 body {
@@ -43,4 +51,16 @@ a {
 
 ul{
   list-style-position: inside;
+}
+
+.card{
+  display: inline-block;
+  width:70%;
+  margin: 5px;
+  color: white;
+  box-shadow: 0 4px 8px 0 #695ba4;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 #a397d6;
 }
