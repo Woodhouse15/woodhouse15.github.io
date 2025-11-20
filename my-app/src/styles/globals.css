@@ -11,10 +11,15 @@
 }
 
 .container{
-  display: flex;
   justify-content: center;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
+  padding-bottom: 10px;
+  
 }
 
 html,
