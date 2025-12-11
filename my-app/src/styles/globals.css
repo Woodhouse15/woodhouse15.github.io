@@ -10,6 +10,10 @@
   }
 }
 
+img{
+  border-radius: 50%;
+}
+
 .container{
   justify-content: center;
   display: flex;

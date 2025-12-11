@@ -29,6 +29,7 @@ export default function Home() {
           </TabList>
           <TabPanel>
             <h2>About Me</h2>
+            <img src="/profilePicture.jpg" width="250" height="250"/>
             <p>My name is Eleanor Woodhouse, I'm a recent graduate from the University of Nottingham.<br></br>Here are some programming languages and frameworks I'm experienced in:</p>
             <ul>
               <li>Java</li>
